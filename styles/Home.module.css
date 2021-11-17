@@ -82,7 +82,7 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  max-width: 500px;
 }
 
 .card:hover,
@@ -106,6 +106,22 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.formError {
+  font-size: 10px;
+  color: red;
+}
+
+.formInput {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 1rem;
+  border: 1px solid rgb(194, 190, 190);
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 10px;
 }
 
 @media (max-width: 600px) {
