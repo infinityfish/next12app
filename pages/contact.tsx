@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { useForm, SubmitHandler } from "react-hook-form";
 
@@ -53,7 +52,7 @@ const Contact: NextPage = () => {
                     <p className={styles.formError}>{errors.name && <span>Message is required</span>}</p>
 
                         {/* <input type="submit" /> */}
-                        <button type="submit" className="btn-primary">Submit Order</button>
+                        <button type="submit" className="btn-primary">Submit Your Message</button>
                 </form>
             </div>
         </div>
